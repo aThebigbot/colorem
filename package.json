@@ -1,0 +1,19 @@
+{
+  "name": "colorem",
+  "version": "1.0.0",
+  "description": "Send color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thebigbot0000/colorem.git"
+  },
+  "author": "Thebigbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thebigbot0000/colorem/issues"
+  },
+  "homepage": "https://github.com/Thebigbot0000/colorem#readme"
+}
