@@ -26,7 +26,7 @@ const Color = {
     BgWhite: "\x1b[47m"
   }
 
-
+// Fg
 function red(string) { return Color.FgRed+string+Color.Reset; }
 function black(string) { return Color.FgBlack+string+Color.Reset; }
 function green(string) { return Color.FgGreen+string+Color.Reset; }
@@ -36,4 +36,22 @@ function magenta(string) { return Color.FgMagenta+string+Color.Reset; }
 function cyan(string) { return Color.FgCyan+string+Color.Reset; }
 function white(string) { return Color.FgWhite+string+Color.Reset; }
 
-module.exports = { red, black, green, yellow, blue, magenta, cyan, white }
+// Bg
+function BgRed(string) { return Color.BgRed+string+Color.Reset; }
+function BgBlack(string) { return Color.BgBlack+string+Color.Reset; }
+function BgGreen(string) { return Color.BgGreen+string+Color.Reset; }
+function BgYellow(string) { return Color.BgYellow+string+Color.Reset; }
+function BgBlue(string) { return Color.BgBlue+string+Color.Reset; }
+function BgMagenta(string) { return Color.BgMagenta+string+Color.Reset; }
+function BgCyan(string) { return Color.BgCyan+string+Color.Reset; }
+function BgWhite(string) { return Color.BgWhite+string+Color.Reset; }
+
+// ??
+function bright(string) { return Color.Bright+string+Color.Reset; }
+function dim(string) { return Color.Dim+string+Color.Reset; }
+function underscore(string) { return Color.Underscore+string+Color.Reset; }
+function blink(string) { return Color.Blink+string+Color.Reset; }
+function reverse(string) { return Color.Reverse+string+Color.Reset; }
+function hidden(string) { return Color.Hidden+string+Color.Reset; }
+
+module.exports = { red, black, green, yellow, blue, magenta, cyan, white, BgRed, BgBlack, BgGreen, BgYellow, BgBlue, BgMagenta, BgCyan, BgWhite, bright, dim, underscore, blink, reverse, hidden }
